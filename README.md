@@ -126,15 +126,15 @@ git clone https://github.com/StuartAshby/tensorflow-bag-of-words-text-classifica
 cd tensorflow-bag-of-words-text-classification/text_classification
 ```
 
-The data preparation is in the ```data.json``` file. We included Bag of Words (BoW) classifications for 5 categories:
+The data preparation is in the ```data.json``` file. We included Bag of Words (BoW) classifications for 5 training categories:
 
 ```
 time, sorry, greeting, farewell, age
 ```
 
-In each of these 5 categories we've added sample sentences to ```data.json``` to train the model.
+In each of these 5 categories we've added sample sentences to ```data.json``` in order to train the model. Check out that file for details.
 
-Remember, it has never seen the sentences we'll attempt to classify, one in each of the 5 categories listed above:
+Remember, it has never seen the sentences we'll attempt to classify, one in each of the 5 categories:
 ```
 "Do you know the time?" - time
 "I apologize for being rude." - sorry
@@ -143,9 +143,9 @@ Remember, it has never seen the sentences we'll attempt to classify, one in each
 "You must be a couple of years older than him!" - age
 ```
 
-For now, we've hard-coded these into the ```classify_text.py``` code, along with the data loading, pre-processing, Tensorflow specification data conversion and the actual text classification piece.
+For now, we've hard-coded these sentences into the ```classify_text.py``` code. Along with the sentences we're aiming to classify, this code also contains the data loading, pre-processing, Tensorflow specification data conversion and the actual text classification piece.
 
-We'll run 1,000 epochs for the purpose of this exercise (```n_epoch=1000```). This amounts to 3,000 training steps. This is a lightweight test. Tensorflow will perform much better on GPUs and can be pushed to higher epochs and training steps.
+We'll run 1,000 epochs for the purpose of this exercise (```n_epoch=1000```). In our case this amounts to around 3,000 training steps. This is a lightweight test. Tensorflow will perform much better on GPUs and can be pushed to higher epochs and training steps.
 
 When we run it, it will attempt to train it and classify these sentences above -- which it has never encountered before -- into the categories we've trained it on:
 ```
