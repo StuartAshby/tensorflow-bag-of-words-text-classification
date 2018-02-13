@@ -134,7 +134,7 @@ time, sorry, greeting, farewell, age
 
 In each of these 5 categories we've added sample sentences to ```data.json``` to train the model.
 
-But it's never seen the sentences we'll attempt to classify, one in each of the 5 categories listed above:
+Remember, it has never seen the sentences we'll attempt to classify, one in each of the 5 categories listed above:
 ```
 "Do you know the time?" - time
 "I apologize for being rude." - sorry
