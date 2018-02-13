@@ -100,11 +100,7 @@ cd tensorflow-bag-of-words-text-classification/text_classification
 The data preparation is in the ```data.json``` file. We included Bag of Words (BoW) classifications for 5 categories:
 
 ```
-time
-sorry
-greeting
-farewell
-age
+time, sorry, greeting, farewell, age
 ```
 
 In each of these 5 categories we've added sample sentences to ```data.json``` to train the model.
