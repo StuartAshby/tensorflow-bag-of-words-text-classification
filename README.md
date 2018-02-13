@@ -114,7 +114,7 @@ Exit the Python3 terminal and return to the Virtualenv prompt:
 >>> quit()
 ```
 
-If you'd like to exit your Tensorflow virtual environment type ```deactivate``` and to resume run ```cd ~/tensorflow && source ./bin/activate``` on Mac -- where the ```~/tensorflow``` dir is the path where you created your Virtualenv. But we're good to go now, so let's start playing with Tensorflow!
+If you'd like to exit your Tensorflow virtual environment type ```deactivate``` and to resume run ```cd ~/tensorflow && source ./bin/activate``` -- where the ```~/tensorflow``` dir is the path where you created your Virtualenv. But we're good to go now, so let's start playing with Tensorflow!
 
 ## Play with Tensorflow
 
