@@ -1,5 +1,5 @@
 # Tensorflow "Bag of Words" (BoW) Text Classification
-"Bag of Words" (BoW) NLP AI / ML-based text classification with Python + Tensorflow.
+This is a project for [Create a LOOP](https://createaloop.org/) kid's coding club members -- or *anyone* really -- to familiarize with basic AI /ML concepts using [Tensorflow](https://www.tensorflow.org/) + Python and "Bag of Words" (BoW) Natural Language Processing (NLP) text classification. 
 
 ![Bag of Words](https://i.ytimg.com/vi/OGK9SHt8SWg/maxresdefault.jpg)
 
