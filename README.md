@@ -15,6 +15,8 @@ We must train them! Let's get started.
 ## What is the basis for this project?
 An overview of Bag of Words (BoW) [Natural Language Processing](https://en.wikipedia.org/wiki/Natural-language_processing) (NLP) [can be found here](https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/). Also familiarize with the NLP concepts of [Stemming](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) and [Tokenization](https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html).
 
+TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and also used for machine learning applications such as neural networks. As always, thank you [Wikipedia](https://en.wikipedia.org/wiki/TensorFlow).
+
 In this project we're going to use Python + Tensorflow to create a text classifier that classifies sentences that it has never encountered before to specific labels that we train it for.
 
 Let's begin. First, let's make sure we set our environment up properly. We'll need Python3 to run this due to some dependencies. Let's get Tensorflow fired up. We'll run this in a virtual environment to keep it separate and interference-free from other Python stuff on our machine.
