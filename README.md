@@ -86,6 +86,12 @@ This opens the ```nltk``` GUI. Download *all the things!* Once the download is c
 >>> quit()
 ```
 
+## Setup for Windows
+*This works on Windows. README under development.*
+
+## Setup for Linux
+*This works on Linux. README under development.*
+
 ## Play with Tensorflow
 
 Before you begin make sure you see the ```(tensorflow)``` preceding your command prompt. That informs you that your virtual Tensorflow session is activated properly.
