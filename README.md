@@ -89,34 +89,32 @@ This opens the ```nltk``` GUI. Download *all the things!*
 *This works on Linux. README under development.*
 
 ## Test Tensorflow install
-Let’s do a Hello World program in python that uses the TensorFlow package to make sure it’s installed correctly.
-
-Now let’s run a tensorflow “Hello world” program. Instead of creating a new python file, we’ll feed the code into Python one line at a time.
+Let’s do a "Hello World" program in Python that uses the TensorFlow package to make sure it’s installed correctly. Instead of creating a new Python file, we’ll simply feed the code into Python one line at a time.
 
 You might already be in the Python3 terminal. If not, start Python3:
 ```
 python3
 ```
 
-Now enter each line of python code (don’t include the >>>):
+Now enter each line of code (don’t include the >>>):
 ```
 >>> import tensorflow as tf
->>> hello = tf.constant('Hello, TensorFlow!')
+>>> hello = tf.constant('Hello, Tensorflow!')
 >>> sess = tf.Session()
 >>> print(sess.run(hello))
 
 ```
 
-You should see: “Hello, TensorFlow!” 
+You should see: “Hello, Tensorflow!” 
 
-Congratulations! Your computer is now running one of the most powerful machine learning tools on the planet, created by the original Google Brain Team. Your car will one day be able to drive itself thanks to computers running TensorFlow. You have taken your first step towards becoming a data scientist!
+Congratulations! Your computer is now running one of the most powerful machine learning tools on the planet, created by the original Google Brain Team. Your car will one day be able to drive itself thanks to computers running Tensorflow. You have taken your first step towards becoming a data scientist!
 
 Exit the Python3 terminal and return to the Virtualenv prompt:
 ```
 >>> quit()
 ```
 
-If you'd like to exit your tensorflow environment type ```deactivate``` and to resume run ```cd ~/tensorflow && source ./bin/activate``` on Mac -- where the ```~/tensorflow``` dir is the path where you created your Virtualenv. But we're good to go now, so let's start playing with Tensorflow!
+If you'd like to exit your Tensorflow virtual environment type ```deactivate``` and to resume run ```cd ~/tensorflow && source ./bin/activate``` on Mac -- where the ```~/tensorflow``` dir is the path where you created your Virtualenv. But we're good to go now, so let's start playing with Tensorflow!
 
 ## Play with Tensorflow
 
