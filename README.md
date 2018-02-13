@@ -1,5 +1,5 @@
-# Tensorflow "Bag of words" Text Classification
-"Bag of Words" NLP AI / ML-based text classification with Python + Tensorflow.
+# Tensorflow "Bag of Words" (BoW) Text Classification
+"Bag of Words" (BoW) NLP AI / ML-based text classification with Python + Tensorflow.
 
 ![Bag of Words](https://i.ytimg.com/vi/OGK9SHt8SWg/maxresdefault.jpg)
 
