@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/stuart.ashby/tensorflow/tensorflow-bag-of-words-text-classification/text_classification/model.tflearn"
+all_model_checkpoint_paths: "/Users/stuart.ashby/tensorflow/tensorflow-bag-of-words-text-classification/text_classification/model.tflearn"
