@@ -5,7 +5,7 @@
 
 An overview of Bag of Words (BoW) [Natural Language Processing](https://en.wikipedia.org/wiki/Natural-language_processing) (NLP) [can be found here](https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/). Also familiarize with the NLP concepts of [Stemming](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) and [Tokenization](https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html).
 
-In this project we're going to use Python + Tensorflow to build an AI / ML-based text classifier that classifies a given sentence to specific labels that we train it for.
+In this project we're going to use Python + Tensorflow to create a text classifier that classifies a given sentence to specific labels that we train it for.
 
 Let's begin. First, let's make sure we set our environment up properly. We'll need Python3 to run this due to some dependencies. Let's get Tensorflow fired up. We'll run this in a virtual environment to keep it separate and interference-free from other Python stuff on our machine.
 
