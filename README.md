@@ -151,7 +151,7 @@ farewell
 age
 ```
 
-We can make it more sophisticated, but this is just a fun starter project to showcase the power of AI / ML using Tensorflow's text classification. Some examples of real-world applications for text classification include Chatbots, document parsing and sentiment analysis, to name just a few.
+We can make it more sophisticated, but this is just a fun starter project to showcase some basic AI / ML using Tensorflow's text classification. Some examples of real-world applications for text classification include Chatbots, document parsing and sentiment analysis, to name just a few.
 
 Enjoy!
 
