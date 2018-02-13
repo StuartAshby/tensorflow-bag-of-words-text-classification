@@ -78,7 +78,6 @@ This will open the Python3 terminal.
 ```
 >>> import nltk
 >>> nltk.download()
-
 ```
 
 This opens the ```nltk``` GUI. Download *all the things!* Once the download is complete, you can exit the Python3 terminal and return to the Virtualenv prompt
