@@ -133,4 +133,6 @@ age
 
 We can make it more sophisticated, but this is just a fun starter project to showcase the power of AI & ML using Tensorflow's text classification. Some examples of real-world applications for text classification include Chatbots, document parsing and sentiment analysis, to name just a few.
 
-Enjoy!!!
+Enjoy!
+
+*Special thanks to [Akshay Pai](https://github.com/akshaypai) who you can also find writing awesome AI / ML on [Source Dexter](https://sourcedexter.com/author/akshayhpai94/), including [this post](https://sourcedexter.com/tensorflow-text-classification-python/) which informed this project.*
