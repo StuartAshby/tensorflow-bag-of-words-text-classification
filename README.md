@@ -10,8 +10,9 @@ Remember 4 words: ```Intelligence demonstrated by machines```.
 Remember 4 more words: ```Machines learning without programming```.
 
 ## How do machines demonstrate intelligence and learn without being programmed?
-We must train them! Let's begin.
+We must train them! Let's get started.
 
+## What is the basis for this project?
 An overview of Bag of Words (BoW) [Natural Language Processing](https://en.wikipedia.org/wiki/Natural-language_processing) (NLP) [can be found here](https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/). Also familiarize with the NLP concepts of [Stemming](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) and [Tokenization](https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html).
 
 In this project we're going to use Python + Tensorflow to create a text classifier that classifies sentences that it has never encountered before to specific labels that we train it for.
