@@ -1,5 +1,5 @@
 # Tensorflow "Bag of words" Text Classification
-"Bag of Words" NLP text classification with Python + Tensorflow.
+"Bag of Words" NLP AI text classification with Python + Tensorflow.
 
 An overview of Bag of Words (BoW) Natural Language Processing (NLP) [can be found here](https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/). Also familiarize with the NLP concepts of [Stemming](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) and [Tokenization](https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html).
 
