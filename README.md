@@ -54,19 +54,7 @@ This should return ```Python 3.6.4```.
 
 Let's install some Python3 package dependencies:
 ```
-pip3 install nltk
-
-pip3 install numpy
-
-pip3 install mkl
-
-pip3 install scipy
-
-pip3 install h5py
-
-pip3 install tflearn
-
-pip3 install tensorflow
+pip3 install nltk numpy mkl scipy h5py tflearn tensorflow
 ```
 
 And we also need to install some ```nltk``` dependencies:
@@ -80,11 +68,7 @@ This will open the Python3 terminal.
 >>> nltk.download()
 ```
 
-This opens the ```nltk``` GUI. Download *all the things!* Once the download is complete, you can exit the Python3 terminal and return to the Virtualenv prompt
-
-```
->>> quit()
-```
+This opens the ```nltk``` GUI. Download *all the things!* 
 
 ## Setup for Windows
 *This works on Windows. README under development.*
@@ -92,9 +76,39 @@ This opens the ```nltk``` GUI. Download *all the things!* Once the download is c
 ## Setup for Linux
 *This works on Linux. README under development.*
 
+## Test Tensorflow install
+Let’s do a Hello World program in python that uses the TensorFlow package to make sure it’s installed correctly.
+
+Now let’s run a tensorflow “Hello world” program. Instead of creating a new python file, we’ll feed the code into Python one line at a time.
+
+You might already be in the Python3 terminal. If not, start Python3:
+```
+python3
+```
+
+Now enter each line of python code (don’t include the >>>):
+```
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> print(sess.run(hello))
+
+```
+
+You should see: “Hello, TensorFlow!” 
+
+Congratulations! Your computer is now running one of the most powerful machine learning tools on the planet, created by the original Google Brain Team. Your car will one day be able to drive itself thanks to computers running TensorFlow. You have taken your first step towards becoming a data scientist!
+
+Exit the Python3 terminal and return to the Virtualenv prompt:
+```
+>>> quit()
+```
+
+If you'd like to exit your tensorflow environment type ```deactivate``` and to resume run ```cd ~/tensorflow && source ./bin/activate``` on Mac -- where the ```~/tensorflow``` dir is the path where you created your Virtualenv. But we're good to go now, so let's start playing with Tensorflow!
+
 ## Play with Tensorflow
 
-Before you begin make sure you see the ```(tensorflow)``` preceding your command prompt. That informs you that your virtual Tensorflow session is activated properly.
+Before you begin make sure you see the ```(tensorflow)``` preceding your command prompt. That informs you that your virtual Tensorflow session is activated properly. Activate your virtual environment if you need to.
 
 Clone our project repo and CD to the ```text_classification``` dir to run the code:
 ```
@@ -137,7 +151,7 @@ farewell
 age
 ```
 
-We can make it more sophisticated, but this is just a fun starter project to showcase the power of AI & ML using Tensorflow's text classification. Some examples of real-world applications for text classification include Chatbots, document parsing and sentiment analysis, to name just a few.
+We can make it more sophisticated, but this is just a fun starter project to showcase the power of AI / ML using Tensorflow's text classification. Some examples of real-world applications for text classification include Chatbots, document parsing and sentiment analysis, to name just a few.
 
 Enjoy!
 
